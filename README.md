@@ -1,7 +1,7 @@
 # CHRONOS
 
 **Causal-Temporal Representation Learning for Comorbidity Progression Risk in Longitudinal Primary-Care Data**
-[![CHRONOS architecture](https://github.com/FLaTNNBio/CHRONOS/blob/main/fig/CHRONOS.png)
+![CHRONOS architecture](https://github.com/FLaTNNBio/CHRONOS/blob/main/fig/CHRONOS.png)
 ## Overview
 
 CHRONOS is a research framework for confounding-adjusted disease progression discovery from longitudinal observational primary-care records. The framework is designed to move from raw temporal co-occurrence patterns toward more interpretable progression-risk relations by combining causal design and representation learning.
