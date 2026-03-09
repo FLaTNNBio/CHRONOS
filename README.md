@@ -14,13 +14,26 @@ This repository provides the codebase used to preprocess longitudinal records, c
 
 The repository is intended to support methodological transparency and code-level reproducibility of the CHRONOS framework.
 
+
 ## Data Availability
 
-The data used in this project are **not publicly available**.
+The real-world data used in this project are **not publicly available**.
 
 Because the study relies on sensitive longitudinal primary-care records subject to privacy, governance, and ethical restrictions, **raw patient-level data cannot be shared, redistributed, or released in any form through this repository**. This includes raw tables, processed patient-level datasets, and derived intermediate files that could still expose sensitive clinical information.
 
-For this reason, this repository contains the full modeling and analysis pipeline, but not the underlying real-world data.
+For this reason, this repository contains the codebase and analysis workflow, but not the underlying real-world dataset.
+
+## Example Data
+
+The folder `chronos_example_data/` contains **synthetic example files** created only to illustrate the expected input structure and file format used by the pipeline.
+
+These files:
+
+- do **not** contain real patient data
+- do **not** correspond to the original study cohort
+- are provided as toy examples for documentation and repository usability
+
+Field names may reflect the structure of the original administrative schema, but all records in this folder are artificial.
 
 ## Installation
 
